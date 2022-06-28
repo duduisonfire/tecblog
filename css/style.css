@@ -63,7 +63,6 @@ body{
 
 .navsection a{
     display: block;
-    padding: 8px;
     text-decoration: none;
     font-weight: bolder;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -93,11 +92,13 @@ body{
     width: 647px;
     border: 1px solid;
     box-shadow: 1px 1px 1px;
+    margin: 1x;
+    margin-bottom: 25px;
+    
 }
 
 .post-text{
     margin: 0px;
-    padding: 0px;
     font-size: medium;
     padding: 25px;
     text-align: justify;
@@ -107,4 +108,24 @@ body{
     width: 595px;
     padding: 25px;
     padding-bottom: 10px;
+    
+}
+
+.read-more-button a{
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.37);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    text-align: center;
+    position: relative;
+    top: -15px;
+    left: 560px;
+    padding: 6px;
+    width: 49px;
+    border: 1px solid black;
+}
+
+.read-more-button a:hover{
+    color: white;
+    background-color: black;
 }
