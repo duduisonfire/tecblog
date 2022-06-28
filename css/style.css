@@ -86,6 +86,9 @@ body{
     left: 270px;
     width: 650px;
     padding: 15px;
+    padding-bottom: 1px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 .articles{
@@ -93,7 +96,7 @@ body{
     border: 1px solid;
     box-shadow: 1px 1px 1px;
     margin: 1x;
-    margin-bottom: 25px;
+    margin-bottom: 16px;
     
 }
 
@@ -128,4 +131,32 @@ body{
 .read-more-button a:hover{
     color: white;
     background-color: black;
+}
+
+.sidebox{
+    float: right;
+    margin-top: 15px;
+    position: relative;
+    left: -340px;
+    padding: 1px;
+    width: 300px;
+    min-height: 250px;
+    background-color: white;
+    clear: both;
+}
+
+.sidebox-head{
+    background-color: rgb(153, 153, 153);
+    margin: 10px;
+    padding: 5px;
+    box-shadow: 1px 1px 1px;
+    font-weight: bold;
+    font-size: medium;
+}
+
+.sidebox-text{
+    margin: 10px;
+    padding: 5px;
+    font-weight: bold;
+    font-size: medium;
 }
