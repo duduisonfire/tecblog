@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h2{
+    margin: 0px;
+    padding: 0px;
+    padding-top: 7px;
+    padding-left: 6px;
+    font-size: x-large;
+    color: rgb(236, 182, 5);
+}
+
+p{
+    margin: 0px;
+    padding: 0px;
+    padding-left: 9px;
+    font-size: small;
+}
+
+body{
+    background-color:#e6e6e6;
+}
+
+.header{
+    background-color: #f7b600;
+    border: 0px solid;
+    max-width: 1600px;
+    height: 230px;
+    width: 100%;
+
+}
+
+.logo{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 64px;
+    font-weight: bolder;
+    position: relative;
+    left: 670px;
+    top: 50px;
+    text-decoration: none;
+}
+
+.tec{
+    color: rgb(0, 0, 0);
+}
+
+.blog{
+    color: aliceblue;
+}
+
+.navbar{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.navsection{
+    display: inline;
+    float: left;
+}
+
+.navsection a{
+    display: block;
+    padding: 8px;
+    text-decoration: none;
+    font-weight: bolder;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    background-color: rgba(255, 255, 255, 0.247);
+    position: relative;
+    left: 534px;
+    top: 80px;
+}
+
+.navsection a:hover{
+    color: white;
+    background-color: rgba(17, 17, 17, 0.479);
+}
+
+.main{
+    background-color: white;
+    position: relative;
+    left: 270px;
+    width: 650px;
+    padding: 15px;
+}
+
+.articles{
+    width: 647px;
+    border: 1px solid;
+    box-shadow: 1px 1px 1px;
+}
+
+.post-text{
+    margin: 0px;
+    padding: 0px;
+    font-size: medium;
+    padding: 25px;
+    text-align: justify;
+}
+
+.post-photos{
+    width: 595px;
+    padding: 25px;
+    padding-bottom: 10px;
+}
