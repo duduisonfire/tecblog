@@ -179,6 +179,7 @@ body{
 }
 
 .sidebox-list{
+    list-style-type: none;
     display: block;
     margin-left: 10px;
     margin-bottom: 8px;
