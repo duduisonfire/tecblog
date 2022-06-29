@@ -12,6 +12,15 @@ h2{
     color: rgb(236, 182, 5);
 }
 
+h4{
+    margin-left: 9px;
+    color: rgb(236, 182, 5);
+}
+
+hr{
+    margin: 4px;
+}
+
 p{
     margin: 0px;
     padding: 0px;
@@ -140,7 +149,7 @@ body{
     left: -340px;
     padding: 1px;
     width: 300px;
-    min-height: 250px;
+    min-height: 50px;
     background-color: white;
     clear: both;
 }
@@ -155,8 +164,22 @@ body{
 }
 
 .sidebox-text{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
     margin: 10px;
-    padding: 5px;
-    font-weight: bold;
-    font-size: medium;
+    margin-top: 5px;
+    padding: 0px;
+    text-align: justify;
+}
+
+.sidebox-link{
+    color: #f7b600;
+}
+
+.sidebox-list{
+    display: block;
+    margin-left: 10px;
+    margin-bottom: 8px;
 }
