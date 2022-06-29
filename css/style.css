@@ -97,7 +97,7 @@ body{
     padding: 15px;
     padding-bottom: 1px;
     margin-top: 15px;
-    margin-bottom: 15px;
+    margin-bottom: 0px;
 }
 
 .articles{
@@ -182,4 +182,13 @@ body{
     display: block;
     margin-left: 10px;
     margin-bottom: 8px;
+}
+
+.footer{
+    position: relative;
+    right: -270px;
+    background-color: rgba(175, 172, 172, 0.329);
+    padding: 15px;
+    text-align: center;
+    width: 650px;
 }
